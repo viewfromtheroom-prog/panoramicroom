@@ -14,10 +14,14 @@
   <meta property="og:title" content="Panoramic Room: Meaning, vs Standard, Worth It? (Real Views)" />
   <meta property="og:description" content="Definition + comparison + how to verify the real view before you book." />
   <meta property="og:url" content="https://panoramicroom.com/" />
-  <!-- Optional: add og:image once you have a branded image -->
-  <!-- <meta property="og:image" content="https://panoramicroom.com/og.jpg" /> -->
+<meta property="og:image" content="https://panoramicroom.com/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-  <meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Panoramic Room: Meaning, vs Standard, Worth It? (Real Views)" />
+<meta name="twitter:description" content="Definition + comparison + how to verify the real view before you book." />
+<meta name="twitter:image" content="https://panoramicroom.com/og.jpg" />
 
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
 
@@ -43,15 +47,29 @@
   </style>
 
   <!-- FAQ + WebPage schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Panoramic Room: Meaning, vs Standard, Worth It? (Real Views)",
-    "url": "https://panoramicroom.com/",
-    "description": "What is a panoramic room in a hotel? Learn what it means, how it differs from standard rooms, and how to verify the real view before you book.",
-    "mainEntity": {
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://panoramicroom.com/#website",
+      "name": "Panoramic Room",
+      "url": "https://panoramicroom.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://panoramicroom.com/#webpage",
+      "url": "https://panoramicroom.com/",
+      "name": "Panoramic Room: Meaning, vs Standard, Worth It? (Real Views)",
+      "description": "What is a panoramic room in a hotel? Learn what it means, how it differs from standard rooms, and how to verify the real view before you book.",
+      "isPartOf": {
+        "@id": "https://panoramicroom.com/#website"
+      }
+    },
+    {
       "@type": "FAQPage",
+      "@id": "https://panoramicroom.com/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -82,13 +100,14 @@
           "name": "How can I verify the real view from a panoramic room before booking?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for real, guest-submitted photos from the specific room category (not only marketing images). Viewing real photos helps confirm angle, obstructions, height, and day/night appearance."
+            "text": "Look for real, guest-submitted photos from the specific room category (not only marketing images). Real photos help confirm angle, obstructions, height, and day/night appearance."
           }
         }
       ]
     }
-  }
-  </script>
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -142,7 +161,7 @@
       <h2 style="margin-top:0;">The best way to verify a panoramic room view</h2>
       <p>Marketing photos can be beautiful—but they don’t always show the real angle, obstructions, height, or how the view looks at night.</p>
       <p><strong>Best practice:</strong> check <strong>real guest-submitted photos</strong> of the specific room category.</p>
-      <a class="cta" href="https://viewfromtheroom.com/panoramic-room-views/" rel="noopener">See real panoramic room views on ViewFromTheRoom.com →</a>
+      <a class="cta" href="https://viewfromtheroom.com/" rel="noopener">See real hotel room views on ViewFromTheRoom.com →</a>
       <p class="sub" style="margin-top:10px;">ViewFromTheRoom is a UGC platform where travellers share the actual view from their hotel room—so you can “see the view before you book”.</p>
     </section>
 
@@ -179,8 +198,9 @@
     <p class="kicker">Last updated: 2026-02-06</p>
     <p class="footer-links">
       <a href="https://viewfromtheroom.com/" rel="noopener">ViewFromTheRoom.com</a>
-      <a href="https://viewfromtheroom.com/panoramic-room-views/" rel="noopener">Real panoramic room views</a>
+      <a href="https://viewfromtheroom.com/" rel="noopener">Real panoramic room views</a>
     </p>
   </footer>
 </body>
 </html>
+
